@@ -1,7 +1,7 @@
 on: push
 jobs:
   first-jobs:
-    runs-on: termux-latest
+    runs-on: ubuntu-latest
     steps:
       - run: node --version
       - run: npm --version
