@@ -1,0 +1,1164 @@
+#!/usr/bin/env python2
+########################################################################
+#
+# English:
+#
+# If you want to recode this script,
+# please include the author's name, isn't it that easy to give alms?
+#
+#
+# Indonesia:
+#
+# Kalau mau recode script ini,
+# tolong sertakan nama pembuatnya, bukankah semudah itu bersedekah?
+#
+########################################################################
+#
+# Author : Djunekz
+# Email  :
+# - github.guiding533@passinbox.com (Djunekz)
+# - www.handshake311@passinbox.com (MrDee)
+# - mail.reconfirm867@passinbox.com (MrxXx)
+# - xxx.canon600@passinbox.com (Hmei7)
+# - gab288.gab288@passinbox.com (RedHh)
+#
+########################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#!/usr/bin/env python2
+# author : djunekz
+# -*- coding: utf-8 -*-
+
+import os, sys, time
+
+####################
+#  color variable  #
+####################
+N = '\033[0m'
+D = '\033[90m'
+W = '\033[1;37m'
+B = '\033[1;34m'
+R = '\033[1;31m'
+G = '\033[1;32m'
+Y = '\033[1;33m'
+C = '\033[1;36m'
+
+################
+#  etc random  #
+################
+note="""
+{}# NOTE{}
+""".format(R,N)
+dwn= G + '[' + Y + '+' + G + ']'
+up = G + '[' + R + '-' + G + ']'
+tl= Y + '[' + W + 'Translate' + Y + ']'
+sukses= G + '[' + W + '!' + G + ']'
+eror= R + '[' + W + '!' + R + ']'
+def request(s):
+      for c in s + "\n":
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(0.025)
+
+#####################
+#  list code sript  #
+#####################
+color="""
+{}# TEXT COLOR
+{} COLOR         CODE     EXAMPLE
+
+{}Clear/Reset   \\33[0m  = \33[0mExample
+{}Black         \\33[30m = \33[30mExample
+{}Red           \\33[31m = \33[31mExample
+{}Green         \\33[32m = \33[32mExample
+{}Yellow        \\33[33m = \33[33mExample
+{}Blue          \\33[34m = \33[34mExample
+{}Magenta       \\33[35m = \33[35mExample
+{}Cyan          \\33[36m = \33[36mExample
+{}Light Gray    \\33[37m = \33[37mExample
+
+{}Dark Gray     \\33[90m = \33[90mExample
+{}Light Red     \\33[91m = \33[91mExample
+{}Light Green   \\33[92m = \33[92mExample
+{}Light Yellow  \\33[93m = \33[93mExample
+{}Light Blue    \\33[94m = \33[94mExample
+{}Light Magenta \\33[95m = \33[95mExample
+{}Light Cyan    \\33[96m = \33[96mExample
+{}White         \\33[97m = \33[97mExample
+""".format(R,G,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N)
+
+bgcolor="""
+{}# BACKGROUND TEXT COLOR
+{} COLOR         CODE      EXAMPLE
+
+{}Clear/Reset   \\33[0m   = \33[0mExample{}
+{}Black         \\33[40m  = \33[40mExample{}
+{}Red           \\33[41m  = \33[41mExample{}
+{}Green         \\33[42m  = \33[42mExample{}
+{}Yellow        \\33[43m  = \33[43mExample{}
+{}Blue          \\33[44m  = \33[44mExample{}
+{}Magenta       \\33[45m  = \33[45mExample{}
+{}Cyan          \\33[46m  = \33[46mExample{}
+{}Light Gray    \\33[47m  = \33[47mExample{}
+{}Dark Gray     \\33[100m = \33[100mExample{}
+{}Light Red     \\33[101m = \33[101mExample{}
+{}Light Green   \\33[102m = \33[102mExample{}
+{}Light Yellow  \\33[103m = \33[103mExample{}
+{}Light Blue    \\33[104m = \33[104mExample{}
+{}Light Magenta \\33[105m = \33[105mExample{}
+{}Light Cyan    \\33[106m = \33[106mExample{}
+{}White         \\33[107m = \33[107mExample{}
+""".format(R,G,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N)
+
+textcode="""
+{}# TEXT CODE
+{} Decription    CODE     EXAMPLE
+
+{}Bold/Bright   \\33[1m  = \33[1mExample{}
+{}Dim           \\33[2m  = \33[2mExample{}
+{}Underlined    \\33[4m  = \33[4mExample{}
+{}Blink         \\33[5m  = \33[5mExample{}
+{}Reverse       \\33[7m  = \33[7mExample{}
+{}Hidden        \\33[8m  = \33[8mExample{}
+""".format(R,G,N,N,N,N,N,N,N,N,N,N,N,N)
+
+###################
+#  Logo template  #
+###################
+version="""v1.0"""
+os.system("clear")
+logo= """
+                                      {}  ___________
+{}     ______  ____    ______  __   _ {} __|{}__ __ _____{}|__
+{}    |  _   >|    \  |   ___||  |_| |{}|  {} \ ' /|_    _|{} |
+{}    |  __ < |  \  \  `-.`-. |   _  |{}|  {} /   \ |    | {} |
+{}    |______>|__|\__\|______||__| |_|{}|__{}/__/\_\|____|{}__|
+{}        Information Code Variable   {}   |___________|
+         {}Author : {}D J U N E K Z      {}Version: {}1.0
+""".format(G,Y,G,R,G,Y,G,R,G,Y,G,R,G,Y,G,R,G,G,G,Y,W,Y,W)
+print logo
+inf = """        {}[{} Simple Tools for Information Code Bash {}]""".format(R,C,R)
+request(inf)
+banner2 = """
+      {}[{}1{}]{} Text Color   {}[{}2{}]{} Text Set      {}[{}3{}]{} Update
+      {}[{}4{}]{} Contact Me   {}[{}x{}]{} Exit
+""".format(G,Y,G,W,G,Y,G,W,G,Y,G,W,G,Y,G,W,G,R,G,Y)
+
+print banner2
+
+########################
+#  main base function  #
+########################
+def main(s):
+      for c in s + "\n":
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(0.050)
+
+def txtcolor():
+      try:
+        print(color)
+        print(bgcolor)
+        os.system("sleep 3")
+        takok()
+      except KeyboardInterrupt:
+        main(eror + " Wrong Input!")
+def txtset():
+      try:
+        print(textcode)
+        os.system("sleep 3")
+        takok()
+      except KeyboardInterrupt:
+        main(eror + " Wrong Input!")
+def update():
+      try:
+        print(eror + " Maintenance!")
+        takok()
+      except KeyboardInterrupt:
+        main(eror + " Wrong Input!")
+
+def update():
+      try:
+        os.system("clear")
+        print logo
+        print
+        main(sukses + " Checking version")
+        os.system("sleep 2")
+        print version
+        os.system("sleep 3")
+        print
+        os.system("clear")
+        print logo
+        print
+        main(sukses + " Please wait for check update version")
+        os.system("sleep 3")
+        main(dwn + " Connect to https://github.com/djunekz/bashxt")
+        os.system("sleep 3")
+        os.system("clear")
+        print logo
+        print
+        print (sukses + " New version availabel!")
+        print
+      except KeyboardInterrupt:
+        print (eror + " Stopped!")
+      def ya():
+            try:
+              os.system("clear")
+              print logo
+              print
+              main (dwn + " Processing to update new version, please don't close this session")
+              os.system("wget --quiet https://github.com/djunekz/bashxt/releases/latest/download/bashxt.tar.gz")
+              os.system("tar -xf bashxt.tar.gz && rm bashxt.tar.gz && mv xt $HOME/../usr/bin && chmod +x $HOME/../usr/bin/xt")
+              print (sukses + " Reading packages... Done")
+              os.system("sleep 2")
+              print (sukses + " Reading state information... Done")
+              os.system("sleep 2")
+              print (sukses + " Building dependency list... Done")
+              os.system("sleep 2")
+              print (sukses + " Update building packages... Done")
+              os.system("sleep 2")
+              print (sukses + " Update successful!")
+              os.system("sleep 3")
+              os.system("xt")
+            except KeyboardInterrupt:
+              print (eror + " Stopped!")
+      def no():
+            try:
+              os.system("clear")
+              print logo
+              print
+              main (eror + " Don't need for update?")
+              os.system("sleep 3")
+              os.system("xt")
+            except KeyboardInterrupt:
+              print (eror + "Stopped!")
+      tanya = raw_input(W + " Do you need Update?" + Y + " [Y/n]" + G + " > " + W)
+      if tanya == "Y" or tanya == "y":
+            ya()
+      if tanya == "N" or tanya == "n":
+            no()
+      else:
+            print (eror + " Wrong Input!")
+            os.system("sleep 3")
+            update()
+
+def cus():
+      try:
+        print
+        main(G +" > " + W + "Who Am I ?" + Y + " = " + R + "Djunekz / Mr xXx / Hmei7 / MrDee / RedhH")
+        print
+        main(C + " Social media links and also email " + Y + " ("+ W +"UPDATED"+ Y +")")
+        print
+        main(sukses + " Instagram" + R + " : " + Y + "https://instagram.com/triple_x_redhh")
+        main(sukses + " TikTok" + R + " : " + Y + "https://www.tiktok.com/@anonymous_id_")
+        main(sukses + " Github" + R + " : " + Y + "https://github.com/djunekz")
+        main(sukses + " Email" + Y + " ; ")
+        print(G +" > " + W + " xxx.canon600@passinbox.com " + G + " ("+ Y +"Hmei7"+ G +")")
+        print(G +" > " + W + " github.guiding533@passinbox.com " + G + " ("+ Y +"Djunekz"+ G +")")
+        print(G +" > " + W + " mail.reconfirm867@passinbox.com " + G + " ("+ Y +"Mr xXx"+ G +")")
+        print(G +" > " + W + " gab288.gab288@passinbox.com " + G + " ("+ Y +"RedHh"+ G +")")
+        print(G +" > " + W + " www.handshake311@passinbox.com " + G + " ("+ Y +"MrDee"+ G +")")
+        print note
+        print(tl + " ENGLISH")
+        main(G + "   Emails are sent from the dark web, it is recommended to send messages only for short Q&A purposes, if you want to chat freely it is recommended to use social media.")
+        print
+        print(tl + " INDONESIA")
+        main(G + "   Email dikirim dari dark web, disarankan untuk mengirim pesan hanya untuk keperluan tanya jawab singkat, jika ingin ngobrol bebas disarankan menggunakan media sosial.")
+        print
+        os.system("sleep 2")
+        takok()
+      except KeyboardInterrupt:
+        main(eror + " Wrong Input!")
+
+def takok():
+      takok = raw_input(W + " Choose" + G + " > ")
+      if takok == "1" or takok == "01":
+        txtcolor()
+      if takok == "2" or takok == "02":
+        txtset()
+      if takok == "3" or takok == "03":
+        update()
+      if takok == "4" or takok == "04":
+        cus()
+      if takok == "x" or takok == "X":
+        exit
+      else:
+        main(eror + " Wrong Command!")
+        os.system ("sleep 4")
+        os.system("xt")
+
+###################
+#  calling start  #
+###################
+try:
+   takok()
+except KeyboardInterrupt:
+   print (eror + " Wrong Command!")
+   sys.exit()
