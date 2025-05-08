@@ -1,0 +1,7 @@
+on: push
+jobs:
+  first-jobs:
+    runs-on: termux-latest
+    steps:
+      - run: node --version
+      - run: npm --version
