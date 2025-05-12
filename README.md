@@ -1,5 +1,5 @@
 <h1 align="center">[ BashXT ]</h1>
-<h4 align="center">[ Tools information script code color ]</h4>
+<h4 align="center">[ Tools information for basic command and code ]</h4>
 <p align="center">
 <a href="https://github.com/djunekz"><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=github&label=AUTHOR&message=DJUNEKZ&color=blue")</a>
 <a href="https://github.com/djunekz/bashxt/tree/v1.0><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Clockify&logoColor=white&label=Version&message=1.0&color=green")</a><br>
@@ -8,7 +8,7 @@
 		
 # BashXT Tools
 
-Tool information script code color<br>
+Tool information basic command and code<br>
 Author by Djunekz, jika ingin recode script ini usahakan cantumkan nama author di salinan kalian
  
 # Instalation
@@ -30,4 +30,4 @@ git clone https://github.com/djunekz/bashxt && cd bashxt && bash install
 
 # How to use BashXT
 
-Alat sederhana, tinggal pilih nomor untuk melihat kode warna
+Alat sederhana, tinggal pilih nomor untuk melihat informasinya
