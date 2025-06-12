@@ -1,3 +1,4 @@
+
 <h1 align="center">[ BashXT ]</h1>
 <h4 align="center">[ Tools information for basic command and code ]</h4>
 <p align="center">
@@ -17,7 +18,7 @@ Author by Djunekz, jika ingin recode script ini usahakan cantumkan nama author d
 One Command for install,
 Copy Paste in termux
 ```
-pkg install git && git clone https://github.com/djunekz/bashxt && cd bashxt && bash install
+pkg install git && git clone https://github.com/djunekz/bashxt && cd bashxt && ./install
 ```
 
 **for Linux**
@@ -25,7 +26,7 @@ pkg install git && git clone https://github.com/djunekz/bashxt && cd bashxt && b
 One command for install,
 Copy Paste in terminal
 ```
-git clone https://github.com/djunekz/bashxt && cd bashxt && bash install
+git clone https://github.com/djunekz/bashxt && cd bashxt && ./install
 ```
 
 # How to use BashXT
