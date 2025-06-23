@@ -18,7 +18,7 @@ Author by Djunekz, jika ingin recode script ini usahakan cantumkan nama author d
 One Command for install,
 Copy Paste in termux
 ```
-pkg install git && git clone https://github.com/djunekz/bashxt && cd bashxt && ./install
+pkg install git && git clone https://github.com/djunekz/bashxt && cd bashxt && bash install
 ```
 
 **for Linux**
@@ -26,7 +26,7 @@ pkg install git && git clone https://github.com/djunekz/bashxt && cd bashxt && .
 One command for install,
 Copy Paste in terminal
 ```
-git clone https://github.com/djunekz/bashxt && cd bashxt && ./install
+git clone https://github.com/djunekz/bashxt && cd bashxt && bash install
 ```
 
 # How to use BashXT
